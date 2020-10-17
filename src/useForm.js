@@ -32,6 +32,7 @@ export function useForm(initialInputs, schema) {
         setInputs(initialInputs)
         setBusy(false)
         alert('validation was successfull!')
+        alert(JSON.stringify(inputs))
       }
     }
   }
